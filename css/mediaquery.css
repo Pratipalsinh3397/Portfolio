@@ -1,0 +1,655 @@
+/* ---------------------Mobile Screen Size------------------------- */
+
+@media only screen and (max-width:480px) {
+
+    /* ------------Navigation Bar--------------- */
+    #logo {
+        height: 60px;
+        width: fit-content;
+        margin: 0px 0px 8px 15px;
+        cursor: pointer;
+        /* border: 1px solid red; */
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        top: 0px;
+        right: 0%;
+        height: 100vh;
+        background-color: rgb(89, 0, 255);
+        margin-top: 0px;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav ul.add {
+        transform: translateX(0%);
+    }
+
+    nav ul li {
+        padding: 25px 5px;
+        /* margin: 20px 0px 0px 0px; */
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    #menu,
+    #close {
+        display: inline-block;
+        position: absolute;
+        right: 25px;
+        top: 20px;
+        font-size: 25px;
+    }
+
+    /* -------------------Home Section----------------- */
+
+    #container {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container #div1 {
+        height: 36.5vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #container #div1 #div1-inner {
+        margin: 0px auto;
+        font-size: 20px;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #icons {
+        margin: 15px auto 0px auto;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+    }
+
+    .fa-facebook-f {
+        padding: 5px 11px;
+    }
+
+    #down-btn-one {
+        margin: 15px auto;
+    }
+
+    .anchor-one {
+        font-size: 15px;
+    }
+
+    #container #div2 {
+        height: 46vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container #div2 #image {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+        height: 230px;
+        width: 230px;
+    }
+
+    /* -------------------About Section----------------- */
+    #About {
+        height: 120vh;
+    }
+
+    .about-text-back {
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .about-text-front {
+        font-size: 25px;
+        top: 70px;
+    }
+
+    #container-one {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* flex-direction: column; */
+        height: 40vh;
+        top: 80px;
+        /* width: 100%; */
+    }
+
+    #image-div {
+        width: 100%;
+        height: 100%;
+    }
+
+    #image-one {
+        height: 230px;
+        width: 230px;
+    }
+
+    #content-div {
+        width: 100%;
+        height: 33vh;
+        align-items: center;
+        height: fit-content;
+    }
+
+    #my-name {
+        font-size: 25px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    #content {
+        font-size: 13px;
+        width: 300px;
+        text-align: justify;
+        margin: 25px 0px;
+    }
+
+    #down-btn-two {
+        margin: 0px 0px 25px 0px;
+    }
+
+    .anchor-two {
+        font-size: 15px;
+    }
+
+    /* -------------------Education & Skill Section----------------- */
+    #Education {
+        height: 180vh;
+    }
+
+    .education-text-back {
+        font-size: 40px;
+        top: 100px;
+    }
+
+    .education-text-front {
+        font-size: 25px;
+        top: 75px;
+    }
+
+    #main-content {
+        top: 100px;
+    }
+
+    #education-one {
+        flex-wrap: wrap;
+    }
+
+    .data {
+        width: 80%;
+    }
+
+    .data>h2 {
+        font-size: 20px;
+    }
+
+    .data>p {
+        font-size: 13px;
+    }
+
+    #skill .one,
+    #skill .two {
+        gap: 40px 40px;
+        flex-wrap: wrap;
+    }
+
+    .skill-icon {
+        height: 50px;
+    }
+
+    /* -------------------Project Section----------------- */
+    #Project {
+        height: 100vh;
+    }
+
+    .project-text-back {
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .project-text-front {
+        font-size: 25px;
+        top: 70px;
+    }
+
+    #project-container{
+        margin: 170px auto 0px auto;
+        width: 90%;
+        height: 240px;
+        
+    }
+    
+    .project-link-container{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .project-link{
+        width: 100%;
+        height: 200px;
+    }
+
+   
+
+    /* -------------------Contact Section----------------- */
+
+    #Contact {
+        height: 100vh;
+    }
+
+    .contact-text-back {
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .contact-text-front {
+        font-size: 25px;
+        top: 70px;
+    }
+
+    .contact-container p {
+        font-size: 20px;
+    }
+
+    #name,
+    #email,
+    #message {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    #btn {
+        font-size: 15px;
+    }
+
+    #confirm-msg {
+        top: 80%;
+        left: 20%;
+    }
+
+    /* -------------------Footer Section----------------- */
+    #copyright {
+        font-size: 11px;
+    }
+}
+
+/* ---------------------Tablet Screen Size------------------------- */
+
+@media only screen and (min-width: 481px) and (max-width: 834px) {
+
+    /* ------------Navigation Bar--------------- */
+    #logo {
+        margin: 0px 0px 8px 25px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        width: 50%;
+        top: 0px;
+        right: 0%;
+        height: 100vh;
+        background-color: rgb(89, 0, 255);
+        margin-top: 0px;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav ul.add {
+        transform: translateX(0%);
+    }
+
+    nav ul li {
+        padding: 25px 5px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    #menu,
+    #close {
+        display: inline-block;
+        position: absolute;
+        right: 40px;
+        top: 25px;
+        font-size: 25px;
+    }
+
+    /* -------------------Home Section----------------- */
+    #container #div1 #div1-inner {
+        margin-right: 90px;
+        font-size: 20px;
+    }
+
+    .fa-brands {
+        font-size: 18px;
+    }
+
+    .fa-facebook-f {
+        padding: 5px 11px;
+    }
+
+    .anchor-one {
+        font-size: 15px;
+    }
+
+    #container #div2 #image {
+        height: 270px;
+        width: 270px;
+    }
+
+    /* -------------------About Section----------------- */
+    .about-text-back {
+        font-size: 50px;
+    }
+
+    .about-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    #image-one {
+        height: 270px;
+        width: 270px;
+    }
+
+    #my-name {
+        font-size: 25px;
+    }
+
+    #content {
+        font-size: 13px;
+        width: 350px;
+    }
+
+    .anchor-two {
+        font-size: 15px;
+    }
+
+    /* -------------------Education & Skill Section----------------- */
+    .education-text-back {
+        font-size: 50px;
+    }
+
+    .education-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    .data {
+        width: 25%;
+    }
+
+    .data>h2 {
+        font-size: 18px;
+    }
+
+    .data>p {
+        font-size: 10px;
+    }
+
+    #skill .one,
+    #skill .two {
+        gap: 0px 40px;
+    }
+
+    .skill-icon {
+        height: 45px;
+    }
+
+    /* -------------------Project Section----------------- */
+    .project-text-back {
+        font-size: 50px;
+    }
+
+    .project-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    #project-container{
+        width: 70%;
+        height: 350px;
+        
+    }
+    
+    .project-link-container{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .project-link{
+        width: 100%;
+        height: 300px;
+    }
+    /* -------------------Contact Section----------------- */
+    .contact-text-back {
+        font-size: 50px;
+    }
+
+    .contact-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    .contact-container p {
+        font-size: 20px;
+    }
+
+    #name,
+    #email,
+    #message {
+        font-size: 15px;
+    }
+
+    #btn {
+        font-size: 15px;
+    }
+
+    #confirm-msg {
+        top: 80%;
+        left: 35%;
+    }
+
+    /* -------------------Footer Section----------------- */
+    #copyright {
+        font-size: 13px;
+    }
+
+
+}
+
+/* ---------------------Laptop Screen Size------------------------- */
+
+@media only screen and (min-width:835px) and (max-width: 1024px) {
+
+    /* ------------Navigation Bar--------------- */
+    nav ul li {
+        padding: 5px 18px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    /* -------------------Home Section----------------- */
+    #container #div1 #div1-inner {
+        margin-right: 90px;
+        font-size: 25px;
+    }
+
+    .fa-brands {
+        font-size: 20px;
+    }
+
+    .fa-facebook-f {
+        padding: 5px 11px;
+    }
+
+    .anchor-one {
+        font-size: 15px;
+    }
+
+    #container #div2 #image {
+        height: 320px;
+        width: 320px;
+    }
+
+    /* -------------------About Section----------------- */
+    .about-text-back {
+        font-size: 50px;
+    }
+
+    .about-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    #image-one {
+        height: 320px;
+        width: 320px;
+    }
+
+    #my-name {
+        font-size: 35px;
+    }
+
+    #content {
+        font-size: 15px;
+        width: 450px;
+    }
+
+    .anchor-two {
+        font-size: 15px;
+    }
+
+    /* -------------------Education & Skill Section----------------- */
+    .education-text-back {
+        font-size: 50px;
+    }
+
+    .education-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    .data {
+        width: 25%;
+    }
+
+    .data>h2 {
+        font-size: 20px;
+    }
+
+    .data>p {
+        font-size: 12px;
+    }
+
+    #skill .one,
+    #skill .two {
+        gap: 0px 70px;
+    }
+
+    .skill-icon {
+        height: 50px;
+    }
+
+    /* -------------------Project Section----------------- */
+    .project-text-back {
+        font-size: 50px;
+    }
+
+    .project-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    #project-container{
+        width: 90%;
+        height: 430px;
+        
+    }
+    
+    .project-link-container{
+        width: 100%;
+        height: 380px;
+    }
+    
+    .project-img{
+        width: 100%;
+        height: 380px;
+    }
+    
+    .project-link{
+        width: 100%;
+        height: 380px;
+    }
+
+    /* -------------------Contact Section----------------- */
+    .contact-text-back {
+        font-size: 50px;
+    }
+
+    .contact-text-front {
+        font-size: 25px;
+        top: 90px;
+    }
+
+    .contact-container p {
+        font-size: 20px;
+    }
+
+    #name,
+    #email,
+    #message {
+        font-size: 15px;
+    }
+
+    #btn {
+        font-size: 15px;
+    }
+
+    #confirm-msg {
+        top: 80%;
+        left: 39%;
+    }
+
+    /* -------------------Footer Section----------------- */
+    #copyright {
+        font-size: 15px;
+    }
+}
