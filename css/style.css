@@ -12,7 +12,6 @@
     --skyblue: #0096FF;
     --black: black;
     --newwhite: #EEF1FF;
-    /* --gredient: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
     --font: "Ubuntu", sans-serif;
     --bold: 700;
     --fontStyle: normal;
@@ -33,7 +32,6 @@ body {
 #header-section {
     display: flex;
     justify-content: space-between;
-    /* border: 1px solid red; */
     background-color: var(--blue);
     position: fixed;
     top: 0px;
@@ -41,7 +39,7 @@ body {
     left: 0px;
     z-index: 2;
     transition: 0.5s;
-    height: 11vh;
+    height: 10vh;
     
 }
 
@@ -54,11 +52,9 @@ body {
     width: fit-content;
     margin: 0px 0px 8px 40px;
     cursor: pointer;
-    /* border: 1px solid red; */
 }
 
 nav {
-    /* border: 1px solid red;   */
     margin: 0px 40px 0px 0px;
 }
 
@@ -67,15 +63,13 @@ nav ul {
 }
 
 nav ul li {
-    /* border: 1px solid red; */
     list-style-type: none;
     padding: 5px 25px;
-    margin: 21px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 nav ul li a{
     text-decoration: none;
-    /* color: var(--black); */
     font-size: 18px;
     color: var(--white);
 }
@@ -112,22 +106,18 @@ nav ul li a.active::after {
     justify-content: space-between;
     position: relative;
     top: 80px;
-    /* border: 1px solid red; */
 }
 
 #container #div1 {
-    /* border: 1px solid red; */
     height: 90vh;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 0px 0px 60px;
-    /* margin: 10px 0px 0px 60px; */
 }
 
 #container #div1 #div1-inner {
-    /* border: 1px solid red; */
     font-size: 35px;
 }
 
@@ -142,7 +132,6 @@ nav ul li a.active::after {
 
 #icons{
     display: block;
-    /* border: 1px solid; */
     width: fit-content;
     margin: 15px 0px 0px 0px;
 }
@@ -268,7 +257,6 @@ nav ul li a.active::after {
 }
 
 #container #div2 {
-    /* border: 1px solid red; */
     height: 90vh;
     width: 50%;
     display: flex;
@@ -277,7 +265,6 @@ nav ul li a.active::after {
 }
 
 #container #div2 #image {
-    /* box-shadow: 10px 10px 20px var(--white), -10px -10px 20px var(--white); */
     box-shadow: 0px 0px 10px rgb(171, 171, 171);
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     background-color: var(--blue);
@@ -317,26 +304,20 @@ nav ul li a.active::after {
     height: 69.5vh;
     position: relative;
     top: 100px;
-    /* width: 100%; */
     margin: 0px auto;
-    /* border: 1px solid red; */
 }
 
 #image-div{
     width: 50%;
     height: 100%;
-    /* border: 1px solid red;   */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 0px 100px; */
 }
 
 #image-one{
-    /* box-shadow: 10px 10px 20px var(--white), -10px -10px 20px var(--white); */
     box-shadow: 0px 0px 10px rgb(171, 171, 171);
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-    /* border-radius: 50%; */
     background-color: var(--blue);
     height: 350px;
     width: 350px;
@@ -348,7 +329,6 @@ nav ul li a.active::after {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    /* border: 1px solid red; */
 }
 
 
@@ -448,7 +428,6 @@ nav ul li a.active::after {
 #main-content{
     position: relative;
     top: 120px;
-    /* border: 1px solid red; */
     width: fit-content;
     margin: 0px auto;
     padding: 5px;
@@ -459,7 +438,6 @@ nav ul li a.active::after {
     justify-content: space-around;
     align-items: center;
     margin: 5px 0px;
-    /* border: 1px solid red;   */
 }
 
 .data{
@@ -482,7 +460,6 @@ nav ul li a.active::after {
 }
 
 .data:hover{
-    /* box-shadow: 0px 0px 10px var(--black); */
     transform: scale(1.10);
     
 }
@@ -515,7 +492,6 @@ img{
 .skill-icon{
     height: 70px;
     transition: 0.5s;
-    /* border: 1px solid red; */
 }
 
 .skill-icon:hover{
@@ -559,8 +535,6 @@ img{
     align-items: center;
     overflow: hidden;
     border-radius: 20px;
-    /* box-shadow: 0px 0px 10px rgb(0, 0, 0);  */
-    
 }
 .project{
     overflow: hidden; 
@@ -622,7 +596,6 @@ img{
 }
 
 .contact-container{
-    /* border: 1px solid red; */
     position: relative;
     top: 120px;
     width: 100%;
@@ -636,7 +609,6 @@ img{
 }
 
 #contact-form{
-    /* border: 1px solid red; */
     width: 100%;
     margin: 35px auto;
 }
@@ -647,7 +619,6 @@ img{
     width: 50%;
     margin: 15px auto;
     outline: none;
-    /* border: 2px solid var(--blue); */
     border: none;
     box-shadow: 0px 0px 10px rgb(171, 171, 171);
     border-radius: 5px;
@@ -668,7 +639,6 @@ img{
     padding: 10px 50px;
     margin: 50px auto;
     outline: none;
-    /* border: 2px solid var(--blue); */
     border: none;
     box-shadow: 0px 0px 10px rgb(171, 171, 171);
     border-radius: 5px;
