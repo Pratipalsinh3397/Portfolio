@@ -40,7 +40,7 @@ body {
     z-index: 2;
     transition: 0.5s;
     height: 10vh;
-    
+    padding: 5px;
 }
 
 #header-section.sticky{
