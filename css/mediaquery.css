@@ -329,9 +329,12 @@
     nav ul.add {
         transform: translateY(0%);
     } */
+    nav {
+        margin: 0px 20px 0px 0px;
+    }
 
     nav ul li {
-        padding: 5px 15px;
+        padding: 10px 15px;
         margin: 10px 0px 0px 0px;
     }
 
