@@ -307,28 +307,7 @@
     #logo {
         margin: 0px 0px 8px 25px;
     }
-
-/*    nav ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        top: 0px;
-        right: 0%;
-        height: 70px;
-        background-color: rgb(89, 0, 255);
-        margin-top: -5px;
-        margin-left: 20px;
-        transform: translateY(-100%);
-        transition: all 0.5s ease-in-out;
-    }
-
-    nav ul.add {
-        transform: translateY(0%);
-    } */
+    
     nav {
         margin: 0px 20px 0px 0px;
     }
@@ -341,15 +320,6 @@
     nav ul li a {
         font-size: 18px;
     }
-
-/*     #menu,
-    #close {
-        display: inline-block;
-        position: absolute;
-        right: 40px;
-        top: 25px;
-        font-size: 25px;
-    } */
 
     /* -------------------Home Section----------------- */
     #container #div1 #div1-inner {
