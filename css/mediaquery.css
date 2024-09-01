@@ -173,7 +173,7 @@
 
     /* -------------------Education & Skill Section----------------- */
     #Education {
-        height: 180vh;
+        height: 170vh;
     }
 
     .education-text-back {
@@ -218,7 +218,7 @@
 
     /* -------------------Project Section----------------- */
     #Project {
-        height: 100vh;
+        height: 90vh;
     }
 
     .project-text-back {
@@ -258,7 +258,7 @@
     /* -------------------Contact Section----------------- */
 
     #Contact {
-        height: 100vh;
+        height: 90vh;
     }
 
     .contact-text-back {
