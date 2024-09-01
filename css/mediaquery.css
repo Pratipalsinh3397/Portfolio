@@ -308,7 +308,7 @@
         margin: 0px 0px 8px 25px;
     }
 
-   nav ul {
+/*    nav ul {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -328,7 +328,7 @@
 
     nav ul.add {
         transform: translateY(0%);
-    }
+    } */
 
     nav ul li {
         padding: 20px 10px;
@@ -338,14 +338,14 @@
         font-size: 18px;
     }
 
-    #menu,
+/*     #menu,
     #close {
         display: inline-block;
         position: absolute;
         right: 40px;
         top: 25px;
         font-size: 25px;
-    }
+    } */
 
     /* -------------------Home Section----------------- */
     #container #div1 #div1-inner {
