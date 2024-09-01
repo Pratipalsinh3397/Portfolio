@@ -214,7 +214,7 @@
 
     /* -------------------Project Section----------------- */
     #Project {
-        height: 100vh;
+        height: 90vh;
     }
 
     .project-text-back {
@@ -254,7 +254,7 @@
     /* -------------------Contact Section----------------- */
 
     #Contact {
-        height: 90vh;
+        height: 100vh;
     }
 
     .contact-text-back {
