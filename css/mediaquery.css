@@ -308,7 +308,7 @@
         margin: 0px 0px 8px 25px;
     }
 
-    nav ul {
+   nav ul {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -318,7 +318,7 @@
         width: 100%;
         top: 0px;
         right: 0%;
-        height: 10vh;
+        height: 70px;
         background-color: rgb(89, 0, 255);
         margin-top: -5px;
         transform: translateY(-100%);
@@ -330,7 +330,7 @@
     }
 
     nav ul li {
-        padding: 25px 5px;
+        padding: 20px 10px;
     }
 
     nav ul li a {
