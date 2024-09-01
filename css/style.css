@@ -532,7 +532,7 @@ img{
     overflow: hidden;
     border-radius: 20px;
     position: relative;
-    z-index: 2;
+    z-index: -1;
 }
 .project{
     overflow: hidden; 
