@@ -514,7 +514,7 @@
 /* ---------------------Tablet Screen Size------------------------- */
 
 
-@media only screen and (max-height:800px) and (min-width: 835px) and (max-width: 835px) {
+@media only screen and (max-height:800px) and (min-width: 800px) and (max-width: 835px) {
 
     /* ------------Navigation Bar--------------- */
     #logo {
