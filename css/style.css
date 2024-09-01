@@ -20,7 +20,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-
+    height: 100vh;
     background-color: var(--white);
     font-family: var(--font);
     font-weight: var(--bold);
