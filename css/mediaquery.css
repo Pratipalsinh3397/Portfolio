@@ -271,6 +271,10 @@
         top: 70px;
     }
 
+    .contact-container{
+           top: 150px;
+    }
+
     .contact-container p {
         font-size: 20px;
     }
