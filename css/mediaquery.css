@@ -310,7 +310,7 @@
 
     nav ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: start;
         align-items: center;
         position: absolute;
@@ -318,7 +318,7 @@
         width: 100%;
         top: 0px;
         right: 0%;
-        height: 100vh;
+        height: 10vh;
         background-color: rgb(89, 0, 255);
         margin-top: -5px;
         transform: translateY(-100%);
