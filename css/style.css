@@ -532,7 +532,7 @@ img{
     overflow: hidden;
     border-radius: 20px;
     position: relative;
-    z-index: -1;
+    z-index: 1;
 }
 .project{
     overflow: hidden; 
@@ -556,7 +556,7 @@ img{
 }
 
 .project-link{
-    position: absolute;
+    position: relative;
     border-radius: 20px;
     top: 0;
     left: 50%;
