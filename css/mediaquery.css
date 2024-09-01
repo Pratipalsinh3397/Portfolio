@@ -298,7 +298,7 @@
 }
 
 /* ---------------------Mobile and Tablet Rotate Screen Size------------------------- */
-@media only screen and (min-height: 300px) and (min-width:480px) and (max-width: 834px) {
+@media only screen and (min-height: 300px) and (min-width:480px) and (max-width: 850px) {
     /* ------------Navigation Bar--------------- */
     #logo {
         margin: 0px 0px 8px 25px;
@@ -514,7 +514,7 @@
 /* ---------------------Tablet Screen Size------------------------- */
 
 
-@media only screen and (max-height:800px) and (min-width: 834px) and (max-width: 834px) {
+@media only screen and (max-height:800px) and (min-width: 849px) and (max-width: 850px) {
 
     /* ------------Navigation Bar--------------- */
     #logo {
