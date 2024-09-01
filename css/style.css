@@ -556,7 +556,8 @@ img{
 }
 
 .project-link{
-    position: relative;
+    position: absolute;
+    z-index: 1;
     border-radius: 20px;
     top: 0;
     left: 50%;
