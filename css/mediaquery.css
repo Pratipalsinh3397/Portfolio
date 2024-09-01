@@ -8,7 +8,6 @@
         width: fit-content;
         margin: 0px 0px 8px 15px;
         cursor: pointer;
-        /* border: 1px solid red; */
     }
 
     nav ul {
@@ -34,7 +33,6 @@
 
     nav ul li {
         padding: 25px 5px;
-        /* margin: 20px 0px 0px 0px; */
     }
 
     nav ul li a {
@@ -128,10 +126,8 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
         height: 40vh;
         top: 80px;
-        /* width: 100%; */
     }
 
     #image-div {
@@ -258,7 +254,7 @@
     /* -------------------Contact Section----------------- */
 
     #Contact {
-        height: 100vh;
+        height: 90vh;
     }
 
     .contact-text-back {
