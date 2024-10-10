@@ -60,7 +60,7 @@ const msg = document.getElementById('confirm-msg')
 form.addEventListener('submit', function(e) {
     e.preventDefault();
     Email.send({
-      Securetoken: "267dea42-0f49-42cc-b013-cd402bd8c676",
+      SecureToken: "267dea42-0f49-42cc-b013-cd402bd8c676",
       // Host : "smtp.elasticemail.com",
       // Username : "pratipalsinhrana02@gmail.com",
       // Password : "24C3AA197271F8B4AF7A7879B5AEE9D455B3",
