@@ -62,7 +62,7 @@ form.addEventListener('submit', function(e) {
     Email.send({
       // SecureToken: "267dea42-0f49-42cc-b013-cd402bd8c676",
       Host : "smtp.gmail.com",
-      Username : "pratipalsinhrana02@gmail.com",
+      Username : "ranapratipalsinh01@gmail.com",
       Password : "24C3AA197271F8B4AF7A7879B5AEE9D455B3",
       To : 'pratipalsinhrana02@gmail.com',
       From : email.value,
