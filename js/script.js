@@ -30,53 +30,24 @@ const typed = new Typed('.multiple-text',{
 });
 
 //--------------------------for contact form to google sheet-----------------------------------
-// const scriptURL = 'https://script.google.com/macros/s/AKfycbztG1i6JW8MIdTGRDrBLRYH-8snKzTSB7og0oYvJkMPjQDy8WuYOmyiwcTHHuMj7pwi/exec'
-// const form = document.forms['submit-to-google-sheet']
-// const name = document.getElementById('name');
-// const email = document.getElementById('email');
-// const message = document.getElementById('message');
-// const msg = document.getElementById('confirm-msg')
-
-// form.addEventListener('submit', function(e) {
-//   e.preventDefault()
-//   fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-//     .then(response => {
-//         msg.innerHTML="Message sent successfully🎉🎉"
-//         setTimeout(function(){
-//           msg.innerHTML=""
-//         },4000)
-//         form.reset();
-//     })
-//     .catch(error => console.error('Error!', error.message))
-// })
-
-
-const form = document.getElementById('contact-form');
+const scriptURL = 'https://script.google.com/macros/s/AKfycbztG1i6JW8MIdTGRDrBLRYH-8snKzTSB7og0oYvJkMPjQDy8WuYOmyiwcTHHuMj7pwi/exec'
+const form = document.forms['submit-to-google-sheet']
 const name = document.getElementById('name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 const msg = document.getElementById('confirm-msg')
 
 form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    Email.send({
-      // SecureToken: "267dea42-0f49-42cc-b013-cd402bd8c676",
-      Host : "smtp.elasticemail.com",
-      Username : "ranapratipalsinh01@gmail.com",
-      Password : "74C49233714E6776F63E098A7F8595B30505",
-      To : 'pratipalsinhrana02@gmail.com',
-      From : email.value,
-      Subject : "New Project Enquiry",
-      Body : "Name: "+ name.value + "<br> Email: " + email.value + "<br> Message: " +message.value
-  }).then(
-    message => {
-      msg.innerHTML="Message sent successfully🎉🎉"
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+        msg.innerHTML="Message sent successfully🎉🎉"
         setTimeout(function(){
           msg.innerHTML=""
         },4000)
         form.reset();
-    }
-  );
+    })
+    .catch(error => console.error('Error!', error.message))
 })
 
 // ----------------------for scroll to top-----------------------------
